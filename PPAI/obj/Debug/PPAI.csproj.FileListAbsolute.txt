@@ -1,0 +1,10 @@
+C:\Users\user\Desktop\cosasUTN\UTN\3ro\DSI-diseñoDeSistemas\PPAI\bin\Debug\PPAI.exe.config
+C:\Users\user\Desktop\cosasUTN\UTN\3ro\DSI-diseñoDeSistemas\PPAI\bin\Debug\PPAI.exe
+C:\Users\user\Desktop\cosasUTN\UTN\3ro\DSI-diseñoDeSistemas\PPAI\bin\Debug\PPAI.pdb
+C:\Users\user\Desktop\cosasUTN\UTN\3ro\DSI-diseñoDeSistemas\PPAI\obj\Debug\PPAI.csproj.AssemblyReference.cache
+C:\Users\user\Desktop\cosasUTN\UTN\3ro\DSI-diseñoDeSistemas\PPAI\obj\Debug\PPAI.Form1.resources
+C:\Users\user\Desktop\cosasUTN\UTN\3ro\DSI-diseñoDeSistemas\PPAI\obj\Debug\PPAI.Properties.Resources.resources
+C:\Users\user\Desktop\cosasUTN\UTN\3ro\DSI-diseñoDeSistemas\PPAI\obj\Debug\PPAI.csproj.GenerateResource.cache
+C:\Users\user\Desktop\cosasUTN\UTN\3ro\DSI-diseñoDeSistemas\PPAI\obj\Debug\PPAI.csproj.CoreCompileInputs.cache
+C:\Users\user\Desktop\cosasUTN\UTN\3ro\DSI-diseñoDeSistemas\PPAI\obj\Debug\PPAI.exe
+C:\Users\user\Desktop\cosasUTN\UTN\3ro\DSI-diseñoDeSistemas\PPAI\obj\Debug\PPAI.pdb
