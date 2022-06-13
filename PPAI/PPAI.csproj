@@ -47,31 +47,40 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="clases\AsignacionCientificoDelCI.cs" />
-    <Compile Include="clases\AsignacionResponsableTecnicoRT.cs" />
-    <Compile Include="clases\CambioEstadoRT.cs" />
-    <Compile Include="clases\CambioEstadoTurno.cs" />
-    <Compile Include="clases\Estado.cs" />
-    <Compile Include="clases\Mantenimiento.cs" />
-    <Compile Include="clases\Marca.cs" />
-    <Compile Include="clases\Modelo.cs" />
-    <Compile Include="clases\PersonalCientifico.cs" />
-    <Compile Include="clases\RecursoTecnologico.cs" />
-    <Compile Include="clases\Sesion.cs" />
-    <Compile Include="clases\TipoRecursoTecnologico.cs" />
-    <Compile Include="clases\Turno.cs" />
-    <Compile Include="clases\Usuario.cs" />
-    <Compile Include="forms\Form1.cs">
+    <Compile Include="Entidad\AsignacionCientificoDelCI.cs" />
+    <Compile Include="Entidad\AsignacionResponsableTecnicoRT.cs" />
+    <Compile Include="Entidad\CambioEstadoRT.cs" />
+    <Compile Include="Entidad\CambioEstadoTurno.cs" />
+    <Compile Include="Entidad\Estado.cs" />
+    <Compile Include="Entidad\Mantenimiento.cs" />
+    <Compile Include="Entidad\Marca.cs" />
+    <Compile Include="Entidad\Modelo.cs" />
+    <Compile Include="Entidad\PersonalCientifico.cs" />
+    <Compile Include="Entidad\RecursoTecnologico.cs" />
+    <Compile Include="Entidad\Sesion.cs" />
+    <Compile Include="Entidad\TipoRecursoTecnologico.cs" />
+    <Compile Include="Entidad\Turno.cs" />
+    <Compile Include="Entidad\Usuario.cs" />
+    <Compile Include="Formularios\Form1.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="forms\Form1.Designer.cs">
+    <Compile Include="Formularios\Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios\FrmLogin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios\FrmLogin.designer.cs">
+      <DependentUpon>FrmLogin.cs</DependentUpon>
     </Compile>
     <Compile Include="LogicaNegocio\GestorRegistrarMC.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="forms\Form1.resx">
+    <EmbeddedResource Include="Formularios\Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios\FrmLogin.resx">
+      <DependentUpon>FrmLogin.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -96,6 +105,8 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <Folder Include="Fonts\" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
