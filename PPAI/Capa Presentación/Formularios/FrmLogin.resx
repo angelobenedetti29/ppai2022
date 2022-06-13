@@ -118,10 +118,21 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="lblErrorMessage.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAA
+        cAAAAHABznhikwAAABl0RVh0U29mdHdhcmUAd3d3Lmlua3NjYXBlLm9yZ5vuPBoAAADzSURBVDhPpVJb
+        DoIwENwfOIwYbyoSiKcRT6EeQI+A/hggOFPaZikPMW4yYXdnpmXbShhvibe1RFkr0bWR6EUwZ4+clY2j
+        E4khPgIt0M2gAQpqra0Paz4r4TeUg0XQ4M5TwiXkxsy5UPDXHFEBD1U73AFyrm7gTYSHo5pGCGKH/s31
+        mLNHzvVsP+UCXqgIY+BX56EOt3Ph/Pq3PJxxzmxR/b/AFOnM/Oo81JkRQBwC4pdD3PMaExRrrpG9wTV2
+        Em/MW0BRKGIVsHtmzAz7lMtQtIATPJG192EXyQE9ToiaO4/MOngmEKU8YRieBHMemJ/Zh8gHXSaaEXTQ
+        cgcAAAAASUVORK5CYII=
+</value>
+  </data>
   <data name="imgUser.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAAgAAAAIACAYAAAD0eNT6AAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAO
-        wgAADsIBFShKgAAAABl0RVh0U29mdHdhcmUAd3d3Lmlua3NjYXBlLm9yZ5vuPBoAADiKSURBVHhe7d0J
+        wAAADsABataJCQAAABl0RVh0U29mdHdhcmUAd3d3Lmlua3NjYXBlLm9yZ5vuPBoAADiKSURBVHhe7d0J
         eB3lfe/xQ0IW0vZ2vd2e2/ZJl6f3adPee0vT54E2RMj7JsmLvMjWalm25UXyio1tLFuSdxu8STKrMWDw
         CjY7JHhhNaY3oSA3KZdCoVlIjNMUSMkC7533MIKjo//IZ0ZnzvvOzPf3PJ+SYun1zDma9/2dWUSKEJKM
         DB5T9YdDyyqnDyup2j+0tOqfHD92/VP63zl/pr/G/XJCCCGERDFDh1b+0rDSqsFDSqs2OIv8Cw6Vk5LK
@@ -364,17 +375,6 @@
         r697W5/Zcw9vQgjpP++/NOlPfvLG1nelCQVANKSPYedYdg9rQgjJLT/uLv+Nd19d/tL737tHnFwAWMo5
         Zt97dfmLP/pGmb9nvwkhJDPvvjJ16DuvLHr6J29c/977373tA3HCAWCWc2zqY/SdVxY/9R/npg1xD19C
         PJJK/X/d+f2eqIPSowAAAABJRU5ErkJggg==
-</value>
-  </data>
-  <data name="lblErrorMessage.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
-    <value>
-        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAA
-        cgAAAHIBsYahGgAAABl0RVh0U29mdHdhcmUAd3d3Lmlua3NjYXBlLm9yZ5vuPBoAAADzSURBVDhPpVJb
-        DoIwENwfOIwYbyoSiKcRT6EeQI+A/hggOFPaZikPMW4yYXdnpmXbShhvibe1RFkr0bWR6EUwZ4+clY2j
-        E4khPgIt0M2gAQpqra0Paz4r4TeUg0XQ4M5TwiXkxsy5UPDXHFEBD1U73AFyrm7gTYSHo5pGCGKH/s31
-        mLNHzvVsP+UCXqgIY+BX56EOt3Ph/Pq3PJxxzmxR/b/AFOnM/Oo81JkRQBwC4pdD3PMaExRrrpG9wTV2
-        Em/MW0BRKGIVsHtmzAz7lMtQtIATPJG192EXyQE9ToiaO4/MOngmEKU8YRieBHMemJ/Zh8gHXSaaEXTQ
-        cgcAAAAASUVORK5CYII=
 </value>
   </data>
   <data name="$this.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">

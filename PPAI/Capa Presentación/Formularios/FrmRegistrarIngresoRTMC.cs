@@ -1,4 +1,5 @@
-﻿using System;
+﻿using PPAI.clases;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -10,17 +11,16 @@ using System.Windows.Forms;
 
 namespace PPAI.Formularios
 {
-    public partial class FrmMantenimientosRT : Form
+    public partial class FrmRegistrarMC : Form
     {
-        public FrmMantenimientosRT()
+        public FrmRegistrarMC()
         {
             InitializeComponent();
         }
 
-        private void btnRegistrarIngresoRTMP_Click(object sender, EventArgs e)
+        private void FrmRegistrarMC_Load(object sender, EventArgs e)
         {
-            InterfazRegistrarMC interfazRegistrarMC = new InterfazRegistrarMC();
-            interfazRegistrarMC.ShowDialog();
+            
         }
     }
 }

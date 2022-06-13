@@ -47,70 +47,64 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Entidad\AsignacionCientificoDelCI.cs" />
-    <Compile Include="Entidad\AsignacionResponsableTecnicoRT.cs" />
-    <Compile Include="Entidad\CambioEstadoRT.cs" />
-    <Compile Include="Entidad\CambioEstadoTurno.cs" />
-    <Compile Include="Entidad\Estado.cs" />
-    <Compile Include="Entidad\Mantenimiento.cs" />
-    <Compile Include="Entidad\Marca.cs" />
-    <Compile Include="Entidad\Modelo.cs" />
-    <Compile Include="Entidad\PersonalCientifico.cs" />
-    <Compile Include="Entidad\RecursoTecnologico.cs" />
-    <Compile Include="Entidad\Sesion.cs" />
-    <Compile Include="Entidad\TipoRecursoTecnologico.cs" />
-    <Compile Include="Entidad\Turno.cs" />
-    <Compile Include="Entidad\Usuario.cs" />
-    <Compile Include="Formularios\Form1.cs">
+    <Compile Include="Capa Lógica De Negocio\Entidad\AsignacionCientificoDelCI.cs" />
+    <Compile Include="Capa Lógica De Negocio\Entidad\AsignacionResponsableTecnicoRT.cs" />
+    <Compile Include="Capa Lógica De Negocio\Entidad\CambioEstadoRT.cs" />
+    <Compile Include="Capa Lógica De Negocio\Entidad\CambioEstadoTurno.cs" />
+    <Compile Include="Capa Lógica De Negocio\Entidad\Estado.cs" />
+    <Compile Include="Capa Lógica De Negocio\Entidad\Mantenimiento.cs" />
+    <Compile Include="Capa Lógica De Negocio\Entidad\Marca.cs" />
+    <Compile Include="Capa Lógica De Negocio\Entidad\Modelo.cs" />
+    <Compile Include="Capa Lógica De Negocio\Entidad\PersonalCientifico.cs" />
+    <Compile Include="Capa Lógica De Negocio\Entidad\RecursoTecnologico.cs" />
+    <Compile Include="Capa Lógica De Negocio\Entidad\Sesion.cs" />
+    <Compile Include="Capa Lógica De Negocio\Entidad\TipoRecursoTecnologico.cs" />
+    <Compile Include="Capa Lógica De Negocio\Entidad\Turno.cs" />
+    <Compile Include="Capa Lógica De Negocio\Entidad\Usuario.cs" />
+    <Compile Include="Capa Presentación\Formularios\FrmLogin.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Formularios\Form1.Designer.cs">
-      <DependentUpon>Form1.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Formularios\FrmLogin.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Formularios\FrmLogin.designer.cs">
+    <Compile Include="Capa Presentación\Formularios\FrmLogin.designer.cs">
       <DependentUpon>FrmLogin.cs</DependentUpon>
     </Compile>
-    <Compile Include="Formularios\FrmMantenimientosRT.cs">
+    <Compile Include="Capa Presentación\Formularios\FrmMantenimientosRT.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Formularios\FrmMantenimientosRT.Designer.cs">
+    <Compile Include="Capa Presentación\Formularios\FrmMantenimientosRT.Designer.cs">
       <DependentUpon>FrmMantenimientosRT.cs</DependentUpon>
     </Compile>
-    <Compile Include="Formularios\InterfazRegistrarMC.cs">
+    <Compile Include="Capa Presentación\Formularios\FrmRegistrarIngresoRTMC.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Formularios\InterfazRegistrarMC.Designer.cs">
-      <DependentUpon>InterfazRegistrarMC.cs</DependentUpon>
+    <Compile Include="Capa Presentación\Formularios\FrmRegistrarIngresoRTMC.Designer.cs">
+      <DependentUpon>FrmRegistrarIngresoRTMC.cs</DependentUpon>
     </Compile>
-    <Compile Include="LogicaNegocio\GestorRegistrarMC.cs" />
+    <Compile Include="Capa Lógica De Negocio\Gestores\GestorRegistrarMC.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="Formularios\Form1.resx">
-      <DependentUpon>Form1.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Formularios\FrmLogin.resx">
+    <EmbeddedResource Include="Capa Presentación\Formularios\FrmLogin.resx">
       <DependentUpon>FrmLogin.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Formularios\FrmMantenimientosRT.resx">
+    <EmbeddedResource Include="Capa Presentación\Formularios\FrmMantenimientosRT.resx">
       <DependentUpon>FrmMantenimientosRT.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Capa Presentación\Formularios\FrmRegistrarIngresoRTMC.resx">
+      <DependentUpon>FrmRegistrarIngresoRTMC.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
-      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
       <SubType>Designer</SubType>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
     </EmbeddedResource>
-    <Compile Include="Properties\Resources.Designer.cs">
-      <AutoGen>True</AutoGen>
-      <DependentUpon>Resources.resx</DependentUpon>
-      <DesignTime>True</DesignTime>
-    </Compile>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
     </None>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
     <Compile Include="Properties\Settings.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Settings.settings</DependentUpon>
@@ -121,13 +115,14 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="Fonts\" />
+    <Folder Include="Capa Administración de Datos\" />
+    <Folder Include="Capa Presentación\Fonts\" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="RecursosGraficos\computadora.png" />
+    <None Include="Capa Presentación\RecursosGraficos\computadora.png" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="RecursosGraficos\computadora%281%29.png" />
+    <None Include="Capa Presentación\RecursosGraficos\computadora%281%29.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

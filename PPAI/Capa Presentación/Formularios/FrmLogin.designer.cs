@@ -32,12 +32,12 @@
             this.lblTitulo = new System.Windows.Forms.Label();
             this.lblIniciarSesion = new System.Windows.Forms.Label();
             this.txtUsuario = new System.Windows.Forms.TextBox();
-            this.imgUser = new System.Windows.Forms.PictureBox();
             this.txtPassword = new System.Windows.Forms.TextBox();
             this.lblUsuario = new System.Windows.Forms.Label();
             this.lblPassword = new System.Windows.Forms.Label();
             this.btnIngresar = new System.Windows.Forms.Button();
             this.lblErrorMessage = new System.Windows.Forms.Label();
+            this.imgUser = new System.Windows.Forms.PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.imgUser)).BeginInit();
             this.SuspendLayout();
             // 
@@ -68,16 +68,6 @@
             this.txtUsuario.Name = "txtUsuario";
             this.txtUsuario.Size = new System.Drawing.Size(283, 27);
             this.txtUsuario.TabIndex = 2;
-            // 
-            // imgUser
-            // 
-            this.imgUser.Image = ((System.Drawing.Image)(resources.GetObject("imgUser.Image")));
-            this.imgUser.Location = new System.Drawing.Point(345, 184);
-            this.imgUser.Name = "imgUser";
-            this.imgUser.Size = new System.Drawing.Size(110, 105);
-            this.imgUser.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.imgUser.TabIndex = 3;
-            this.imgUser.TabStop = false;
             // 
             // txtPassword
             // 
@@ -135,6 +125,16 @@
             this.lblErrorMessage.TabIndex = 8;
             this.lblErrorMessage.Text = "       Mensaje de Error";
             this.lblErrorMessage.Visible = false;
+            // 
+            // imgUser
+            // 
+            this.imgUser.Image = ((System.Drawing.Image)(resources.GetObject("imgUser.Image")));
+            this.imgUser.Location = new System.Drawing.Point(345, 184);
+            this.imgUser.Name = "imgUser";
+            this.imgUser.Size = new System.Drawing.Size(110, 105);
+            this.imgUser.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.imgUser.TabIndex = 3;
+            this.imgUser.TabStop = false;
             // 
             // FrmLogin
             // 
