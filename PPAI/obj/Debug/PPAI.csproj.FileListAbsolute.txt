@@ -20,3 +20,4 @@ C:\Users\Sol\Documents\GitHub\ppai2022\PPAI\obj\Debug\PPAI.csproj.GenerateResour
 C:\Users\Sol\Documents\GitHub\ppai2022\PPAI\obj\Debug\PPAI.csproj.CoreCompileInputs.cache
 C:\Users\Sol\Documents\GitHub\ppai2022\PPAI\obj\Debug\PPAI.exe
 C:\Users\Sol\Documents\GitHub\ppai2022\PPAI\obj\Debug\PPAI.pdb
+C:\Users\Sol\Documents\GitHub\ppai2022\PPAI\obj\Debug\PPAI.Formularios.FrmMantenimientosRT.resources
