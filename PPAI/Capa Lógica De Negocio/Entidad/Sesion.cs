@@ -13,6 +13,12 @@ namespace PPAI.clases
         public DateTime FechaHoraInicio { get; set; }
         public DateTime FechaHoraFin { get; set; }
 
+        private Usuario oUsuario{get;set;}
+
+        public Sesion()
+        {
+            oUsuario = new Usuario();
+        }
         public Sesion(Usuario user, string desc, DateTime fechaHoraInicio, DateTime fechaHoraFin)
         {
             this.Usuario = user;
@@ -22,15 +28,10 @@ namespace PPAI.clases
 
         }
 
-        public Sesion()
+        public PersonalCientifico obtenerCientificoLogueado(string nombre)
         {
-
-        }
-
-        public Usuario obtenerCientificoLogueado()
-        {
-            var usuario = new Usuario();
-            return usuario;
+            return  oUsuario.obtenerCientifico(nombre);
+            
         }
     }
 }

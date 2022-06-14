@@ -21,3 +21,15 @@ C:\Users\Sol\Documents\GitHub\ppai2022\PPAI\obj\Debug\PPAI.exe
 C:\Users\Sol\Documents\GitHub\ppai2022\PPAI\obj\Debug\PPAI.pdb
 C:\Users\Sol\Documents\GitHub\ppai2022\PPAI\obj\Debug\PPAI.Formularios.FrmMantenimientosRT.resources
 C:\Users\Sol\Documents\GitHub\ppai2022\PPAI\obj\Debug\PPAI.Formularios.FrmRegistrarMC.resources
+C:\Users\user\Desktop\cosasUTN\UTN\3ro\DSI-diseñoDeSistemas\PPAI_gitLocal\ppai2022\PPAI\bin\Debug\PPAI.exe.config
+C:\Users\user\Desktop\cosasUTN\UTN\3ro\DSI-diseñoDeSistemas\PPAI_gitLocal\ppai2022\PPAI\bin\Debug\PPAI.exe
+C:\Users\user\Desktop\cosasUTN\UTN\3ro\DSI-diseñoDeSistemas\PPAI_gitLocal\ppai2022\PPAI\bin\Debug\PPAI.pdb
+C:\Users\user\Desktop\cosasUTN\UTN\3ro\DSI-diseñoDeSistemas\PPAI_gitLocal\ppai2022\PPAI\obj\Debug\PPAI.csproj.AssemblyReference.cache
+C:\Users\user\Desktop\cosasUTN\UTN\3ro\DSI-diseñoDeSistemas\PPAI_gitLocal\ppai2022\PPAI\obj\Debug\PPAI.Formularios.FrmLogin.resources
+C:\Users\user\Desktop\cosasUTN\UTN\3ro\DSI-diseñoDeSistemas\PPAI_gitLocal\ppai2022\PPAI\obj\Debug\PPAI.Formularios.FrmMantenimientosRT.resources
+C:\Users\user\Desktop\cosasUTN\UTN\3ro\DSI-diseñoDeSistemas\PPAI_gitLocal\ppai2022\PPAI\obj\Debug\PPAI.Formularios.FrmRegistrarMC.resources
+C:\Users\user\Desktop\cosasUTN\UTN\3ro\DSI-diseñoDeSistemas\PPAI_gitLocal\ppai2022\PPAI\obj\Debug\PPAI.Properties.Resources.resources
+C:\Users\user\Desktop\cosasUTN\UTN\3ro\DSI-diseñoDeSistemas\PPAI_gitLocal\ppai2022\PPAI\obj\Debug\PPAI.csproj.GenerateResource.cache
+C:\Users\user\Desktop\cosasUTN\UTN\3ro\DSI-diseñoDeSistemas\PPAI_gitLocal\ppai2022\PPAI\obj\Debug\PPAI.csproj.CoreCompileInputs.cache
+C:\Users\user\Desktop\cosasUTN\UTN\3ro\DSI-diseñoDeSistemas\PPAI_gitLocal\ppai2022\PPAI\obj\Debug\PPAI.exe
+C:\Users\user\Desktop\cosasUTN\UTN\3ro\DSI-diseñoDeSistemas\PPAI_gitLocal\ppai2022\PPAI\obj\Debug\PPAI.pdb

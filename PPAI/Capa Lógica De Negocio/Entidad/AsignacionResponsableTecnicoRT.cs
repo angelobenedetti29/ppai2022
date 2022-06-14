@@ -29,19 +29,38 @@ namespace PPAI.clases
 
         public static readonly List<AsignacionResponsableTecnicoRT> listaAsignaciones = new List<AsignacionResponsableTecnicoRT>()
         {
-            new AsignacionResponsableTecnicoRT(DateTime.Parse("13/06/2022"),DateTime.Parse("16/06/2022"),RecursoTecnologico.listaRecursos[0],PersonalCientifico.listaPersonal[0]),
-            new AsignacionResponsableTecnicoRT(DateTime.Parse("13/06/2022"),DateTime.Parse("16/06/2022"),RecursoTecnologico.listaRecursos[1],PersonalCientifico.listaPersonal[0]),
-            new AsignacionResponsableTecnicoRT(DateTime.Parse("13/06/2022"),DateTime.Parse("16/06/2022"),RecursoTecnologico.listaRecursos[2],PersonalCientifico.listaPersonal[0])
+            new AsignacionResponsableTecnicoRT(DateTime.Parse("13/06/2022"),DateTime.Parse("30/06/2022"),RecursoTecnologico.listaRecursos[0],PersonalCientifico.listaPersonal[0]),
+            new AsignacionResponsableTecnicoRT(DateTime.Parse("13/06/2022"),DateTime.Parse("16/06/2022"),RecursoTecnologico.listaRecursos[1],PersonalCientifico.listaPersonal[1]),
+            new AsignacionResponsableTecnicoRT(DateTime.Parse("11/06/2022"),DateTime.Parse("13/06/2022"),RecursoTecnologico.listaRecursos[2],PersonalCientifico.listaPersonal[2])
         };
 
 
-        public bool esAsignacionDelUsario()
+        public IList<AsignacionResponsableTecnicoRT> esAsignacionDelUsario(int legajo)
         {
-            return true;
+            
+            var asignacionesVigentes = new List<AsignacionResponsableTecnicoRT>();
+            foreach (var asignacion in listaAsignaciones)
+            {
+                if (asignacion.PersonalCientifico.Legajo == legajo)
+                {
+                    if (asignacion.esVigente(asignacion.FechaDesde,asignacion.FechaHasta))
+                    {
+                        asignacionesVigentes.Add(asignacion);
+                    }
+                }    
+            }
+            
+            return asignacionesVigentes;
         }
-        public bool esVigente()
+        public bool esVigente(DateTime fechaDesde , DateTime fechaHasta )
         {
-            return true;
+            var fechaActual = DateTime.Today;
+            var resultado = false;
+            if (fechaDesde < fechaActual && fechaActual < fechaHasta)
+            {
+                resultado = true;
+            }
+            return resultado;
         }
         public RecursoTecnologico obtenerRecursoRT()
         {

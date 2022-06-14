@@ -13,8 +13,19 @@ namespace PPAI.LogicaNegocio
         public string RazonMc { get; set; }
         public RecursoTecnologico RecursoTecnologio { get; set; }
         public Sesion Sesion { get; set; }
+        public AsignacionResponsableTecnicoRT AsignacionResponsableTecnicoRT { get; set; }
 
-        public void agregarRTPorTipoRecurso()
+        private RecursoTecnologico oRecursoTecnologico;
+        private Sesion oSesion;
+        private AsignacionResponsableTecnicoRT oAsignacionResponsableTecnicoRT;
+
+        public GestorRegistrarMC()
+        {
+            oRecursoTecnologico = new RecursoTecnologico();
+            oSesion = new Sesion();
+            oAsignacionResponsableTecnicoRT = new AsignacionResponsableTecnicoRT();
+        }
+            public void agregarRTPorTipoRecurso()
         {
 
         }
@@ -24,6 +35,7 @@ namespace PPAI.LogicaNegocio
         }
         public void buscarDatos()
         {
+            
 
         }
         public void buscarDatosTurnosCancelables()
@@ -34,9 +46,10 @@ namespace PPAI.LogicaNegocio
         {
 
         }
-        public void buscarRT()
+        public IList<AsignacionResponsableTecnicoRT> buscarRT(int legajo )
         {
 
+            return oAsignacionResponsableTecnicoRT.esAsignacionDelUsario(legajo);
         }
         public void crearMantenimiento()
         {
@@ -54,8 +67,10 @@ namespace PPAI.LogicaNegocio
         {
 
         }
-        public void obtenerUsuarioLogueado()
+        public PersonalCientifico obtenerUsuarioLogueado(string nombre)
         {
+            var usario = oSesion.obtenerCientificoLogueado(nombre);
+            return usario;
 
         }
         public void tomarConfirmacion()
@@ -73,6 +88,12 @@ namespace PPAI.LogicaNegocio
         public void tomarSeleccionRT()
         {
 
+        }
+        public /*IList<RecursoTecnologico>*/void  obternerRT(List<RecursoTecnologico> rt )
+        {
+            
+
+           
         }
 
 

@@ -30,10 +30,17 @@ namespace PPAI.clases
             new Usuario("mcrespo", "123456", "Científica")
         };
 
-        public PersonalCientifico obtenerCientifico()
+        public PersonalCientifico obtenerCientifico(string nombre)
         {
-            var personalCientifico = new PersonalCientifico();
-            return personalCientifico;
+            PersonalCientifico pcEncontrado = new PersonalCientifico();
+            foreach (var usario in listaUsuarios)
+            {
+                if (usario.Nombre == nombre)
+                {
+                    return pcEncontrado.getPersonalCientificoLogeado(nombre);
+                }
+            }
+            return pcEncontrado;
         }
     }
 }
