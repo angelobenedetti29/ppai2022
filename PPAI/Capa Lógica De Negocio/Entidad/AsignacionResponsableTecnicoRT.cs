@@ -10,28 +10,30 @@ namespace PPAI.clases
     {
         public DateTime FechaDesde { get; set; }
         public DateTime FechaHasta { get; set; }
-        public RecursoTecnologico RecursoTecnologico { get; set; }
+        public IList<RecursoTecnologico> RecursoTecnologicos { get; set; }
         public PersonalCientifico PersonalCientifico { get; set; }
+
 
         public AsignacionResponsableTecnicoRT()
         {
 
         }
 
-        public AsignacionResponsableTecnicoRT(DateTime fechaDesde, DateTime fechaHasta, RecursoTecnologico rt, PersonalCientifico pc)
+        public AsignacionResponsableTecnicoRT(DateTime fechaDesde, DateTime fechaHasta, IList<RecursoTecnologico> rt, PersonalCientifico pc)
         {
             this.FechaDesde = fechaDesde;
             this.FechaHasta = fechaHasta;
-            this.RecursoTecnologico = rt;
+            this.RecursoTecnologicos = rt;
             this.PersonalCientifico = pc;
         }
 
 
         public static readonly List<AsignacionResponsableTecnicoRT> listaAsignaciones = new List<AsignacionResponsableTecnicoRT>()
         {
-            new AsignacionResponsableTecnicoRT(DateTime.Parse("13/06/2022"),DateTime.Parse("30/06/2022"),RecursoTecnologico.listaRecursos[0],PersonalCientifico.listaPersonal[0]),
-            new AsignacionResponsableTecnicoRT(DateTime.Parse("13/06/2022"),DateTime.Parse("16/06/2022"),RecursoTecnologico.listaRecursos[1],PersonalCientifico.listaPersonal[1]),
-            new AsignacionResponsableTecnicoRT(DateTime.Parse("11/06/2022"),DateTime.Parse("13/06/2022"),RecursoTecnologico.listaRecursos[2],PersonalCientifico.listaPersonal[2])
+            
+            new AsignacionResponsableTecnicoRT(DateTime.Parse("13/06/2022"),DateTime.Parse("30/06/2022"),RecursoTecnologico.listaRecursos,PersonalCientifico.listaPersonal[0]),
+            new AsignacionResponsableTecnicoRT(DateTime.Parse("13/06/2022"),DateTime.Parse("16/06/2022"),RecursoTecnologico.listaRecursos,PersonalCientifico.listaPersonal[1]),
+            new AsignacionResponsableTecnicoRT(DateTime.Parse("11/06/2022"),DateTime.Parse("13/06/2022"),RecursoTecnologico.listaRecursos,PersonalCientifico.listaPersonal[2])
         };
 
 
@@ -62,10 +64,19 @@ namespace PPAI.clases
             }
             return resultado;
         }
-        public RecursoTecnologico obtenerRecursoRT()
+
+        public /*IList<RecursoTecnologico>*/void  obtenerRT(AsignacionResponsableTecnicoRT asignacionesVigentes )
         {
-            var rt = new RecursoTecnologico();
-            return rt;
+                foreach (var recurso in asignacionesVigentes.RecursoTecnologicos)
+                {
+                    if (recurso.esRecursoDisponible())
+                    {
+                    
+                    }
+                }
+
+            
+            
         }
     }
 }

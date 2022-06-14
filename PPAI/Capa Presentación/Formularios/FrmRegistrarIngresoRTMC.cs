@@ -23,8 +23,13 @@ namespace PPAI.Formularios
         {
             var oGestorRegistrarMC = new GestorRegistrarMC();
             var prueba = oGestorRegistrarMC.obtenerUsuarioLogueado("abenedetti");
-            var asignacionesVigentes = oGestorRegistrarMC.buscarRT(prueba.Legajo);
-            //oGestorRegistrarMC.obternerRT(asigancionesVigentes);
+            //var asignacionesVigentes = oGestorRegistrarMC.buscarRT(prueba.Legajo);
+            oGestorRegistrarMC.AsignacionResponsableTecnicoRT = oGestorRegistrarMC.buscarRT(prueba.Legajo);
+            foreach (var asignacionVigente in oGestorRegistrarMC.AsignacionResponsableTecnicoRT)
+            {
+                asignacionVigente.obtenerRT(asignacionVigente);
+            }
+            
         }
     }
 }

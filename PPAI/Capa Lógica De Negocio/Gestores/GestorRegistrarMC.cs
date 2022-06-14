@@ -13,7 +13,7 @@ namespace PPAI.LogicaNegocio
         public string RazonMc { get; set; }
         public RecursoTecnologico RecursoTecnologio { get; set; }
         public Sesion Sesion { get; set; }
-        public AsignacionResponsableTecnicoRT AsignacionResponsableTecnicoRT { get; set; }
+        public IList<AsignacionResponsableTecnicoRT> AsignacionResponsableTecnicoRT { get; set; }
 
         private RecursoTecnologico oRecursoTecnologico;
         private Sesion oSesion;
@@ -89,16 +89,6 @@ namespace PPAI.LogicaNegocio
         {
 
         }
-        public /*IList<RecursoTecnologico>*/void  obternerRT(List<RecursoTecnologico> rt )
-        {
-            
-
-           
-        }
-
-
-
-
-
+        
     }
 }
