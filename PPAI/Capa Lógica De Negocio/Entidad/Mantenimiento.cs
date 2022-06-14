@@ -12,5 +12,20 @@ namespace PPAI.clases
         public DateTime FechaInicio { get; set; }
         public DateTime FechaInicioPrevista { get; set; }
         public string MotivoMantenimiento { get; set; }
+
+        public Mantenimiento()
+        {
+
+        }
+
+        public Mantenimiento(DateTime fechaFin, DateTime fechaInicio, DateTime fechaInicioPrevista, string motivo)
+        {
+            this.FechaFin = fechaFin;
+            this.FechaInicio = fechaInicio;
+            this.FechaInicioPrevista = fechaInicioPrevista;
+            this.MotivoMantenimiento = motivo;
+
+        }
     }
+
 }
